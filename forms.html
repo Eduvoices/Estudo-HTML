@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form>
+        <input type="text" placeholder="Seu nome"/>
+        <hr/>
+        <label for="email">Seu email</label>
+        <input id="email" type="email">
+        <hr />
+        <input type="tel" placeholder="Seu telefone"/>
+        <hr/>
+        <input type="number" max="10" min="2" step="2"/>
+        <hr/>
+        <input type="file"/>
+        <hr/>
+        <input type="color">
+        <hr/>
+        <input id="checkbox" type="checkbox">  <label for="checkbox">Aceito os termos e condições de uso</label>
+        <hr/>
+        <p>Qual sua cor favorita?</p>
+        <input id="Vermelho" type="radio" name="cor-favorita"/> <label for="Vermelho">Vermelho</label>
+        <input id="Verde" type="radio" name="cor-favorita" /> <label for="Verde">Verde</label>
+        <input id="Azul" type="radio" name="cor-favorita" /> <label for="Azul">Azul</label>
+        <hr/>
+        <label>Qual seu filme favorito?</label>
+        <select multiple>
+            <option>Senhor dos Anéis</option>
+            <option>Star Wars</option>
+            <option>Vingadores</option>
+            <option>Harry Potter</option>
+        </select>
+        <hr/>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br/>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
